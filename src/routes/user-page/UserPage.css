@@ -1,0 +1,44 @@
+.userpage{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 50px 10%;
+    color: #fff;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+td, th{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.table__row{
+    width: 100%;
+}
+
+.userpage__title{
+    padding: 10px 10%;
+}
+
+.logout_btn{
+    padding: 10px 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: var(--primary-yellow);
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logout_btn > svg{
+    margin-left: 10px;
+}

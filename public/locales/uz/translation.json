@@ -1,0 +1,13 @@
+{
+    "__banner" : {
+        "title" : "Raqamli dunyoni biz bilan o'rganing va yarating.",
+        "quote" : "Biz sizga samarali ta'lim berish uchun doim izlanishdamiz!",
+        "input" : "O'rganmoqchi bo'lgan kursingizni tanlang..."
+    },
+    "__header" : {
+        "1" : "Bosh sahifa",
+        "2" : "Kurs rejasi",
+        "3" : "Biz haqimizda",
+        "4" : "Biz bilan bog'lanish"
+    }
+}

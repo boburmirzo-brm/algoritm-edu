@@ -1,0 +1,13 @@
+{
+    "__banner": { 
+      "title" : "Create and assimilate digital world with us.",
+      "quote" : "We are always on investigation so as to teach perfectly!",
+      "input" : "Choose the course you wanted to learn..."
+    },
+    "__header" : {
+      "1" : "Home",
+      "2" : "Course map",
+      "3" : "About us",
+      "4" : "Contact us"
+  }
+}

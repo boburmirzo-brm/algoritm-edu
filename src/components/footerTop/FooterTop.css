@@ -1,0 +1,140 @@
+.footerTop{
+    width: 100%;
+    height: 459px;
+    display: flex;
+    align-items: center;
+}
+
+.footerTop__container{
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    width: 80%; 
+    margin: 0 auto;
+    height: 434px;
+    align-items: center;
+    background: linear-gradient(102.01deg, rgba(239, 243, 13, 0.6) 1.96%, #373509 101.68%);
+    ;
+    border-radius: 40px;
+}
+
+.footerTop__title{
+    font-family: 'Inter' sans-serif;
+    font-size: 48px;
+    line-height: 160%;
+    font-weight: 600px;
+    vertical-align: top;
+    opacity: 0.7;
+    fill: solid;
+    color: #fff;
+}
+
+.footerTop__downloadApp{
+    padding-left: 100px;
+    z-index: 2;
+}
+
+.footerTop__description{
+    width: 70%;
+    font-family: 'Inter' sans-serif;
+    font-style: Regular ;
+    font-size: 18px;
+    line-height: 32px;
+    line-height: 180%;
+    font-weight: 400;
+    vertical-align: top;
+    fill: solid;
+    color: #fff;
+}
+
+.downloadApp__btn{
+    display: flex;
+}
+
+.downloadApp__btn > img:last-child{
+    margin-left: 40px;
+}
+
+.mobile__image{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+@media only screen and (max-width:1200px) {
+    .footerTop__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile__image{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: .2;
+    }
+    .footerTop__title{
+        opacity: 1;
+    }
+    .footerTop__description{
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .footerTop__downloadApp{
+        padding-left: 50px;
+    }
+    .footerTop__title{
+        font-size: 40px;
+    }
+    .downloadApp__btn{
+        margin-top: 16px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .footerTop__downloadApp{
+        padding-left: 30px;
+    }
+    .footerTop__title{
+        font-size: 34px;
+    }
+    .footerTop__description{
+        font-size: 16px;
+    }
+    .downloadApp__btn > img{
+        width: 120px;
+        height: 36px;
+        object-fit: cover;
+    }
+    .downloadApp__btn > img:last-child{
+        margin-left: 20px;
+    }
+    .mobile__image{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width:470px){
+    .footerTop__container{
+        width: 90%;
+    }
+    .mobile__image{
+        width: 95%;
+    }
+    .downloadApp__btn > img:last-child{
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (max-width:330px){
+    .footerTop__container{
+        width: 94%;
+    }
+    .footerTop__downloadApp{
+        padding-left: 10px;
+    }
+}

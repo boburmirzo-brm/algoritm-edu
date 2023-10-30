@@ -1,0 +1,11 @@
+.container__main{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.shape__image{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
