@@ -1,0 +1,35 @@
+.aducation__course{
+    color: #fff;
+    padding: 50px 10% ;
+}
+.aducation__course > h2{
+    font-size: 40px;
+}
+.aducation__course > p{
+    width: 38%;
+}
+.aducation__course > p span{
+    color: var(--primary-yellow-dark);
+}
+
+.aducation__course-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 35px;
+}
+.aducation__course-item{
+    min-height: 340px;
+    border-radius: 43px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.aducation__course-item > h2{
+    font-size: 40px;
+}
+.aducation__course-item > p{
+    color: #aaa;
+}

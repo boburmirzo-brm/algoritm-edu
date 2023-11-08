@@ -7,6 +7,8 @@ import shapeOne from '../../assets/shape_one.svg';
 import FooterTop from '../../components/footerTop/FooterTop';
 import { Link } from 'react-router-dom';
 import { FiChevronRight, FiPhoneCall } from 'react-icons/fi';
+import Contact from "../../components/contact/Contact";
+import AducationCourse from '../../components/aducation-course/AducationCourse';
 
 
 const Home = () => {
@@ -33,7 +35,10 @@ const Home = () => {
             <Banner/>
             <img src={shapeOne} alt="" className="shape__image"/>
             <Advantages/>
-            <Courses/>
+            <AducationCourse/>
+            <Contact/>
+            {/* <Courses/> */}
+            {/* <Contact/> */}
             <FooterTop/>
         </>
     )

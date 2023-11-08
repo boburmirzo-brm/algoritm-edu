@@ -15,7 +15,7 @@ const Courses = () => {
             <div className="course__wrapper">
                 {
                     courses?.map(course => (
-                        <div  key={course.id} className={courseId === course.id ? "course active" : "course"} onClick={e => selectCourse(course.id)}>
+                        <div  key={course.id} className={"course"} onClick={e => selectCourse(course.id)}>
                             <div className="course__display">
                                 <img className="course__image" src={course.image} alt={course.title} />
                                 <div className="course__videos">{course.videoLessons} videos</div>
@@ -24,16 +24,16 @@ const Courses = () => {
                             <h2 className="course__title">{course.title}</h2>
                             <p className="course__description">{course.aim}</p>
                             <div className="seperator"></div>
-                            <div className="course__profile">
+                            {/* <div className="course__profile">
                                 <div className="course__avatar" style={{backgroundImage: `url(${course.mentorImage})`}}></div>
                                 <div className="course__profileWrapper">
                                     <p className="course__mentor">{course.mentor}</p>
                                     <p className="course__mentorjob">Mentor</p>
                                 </div>
-                            </div>
-                            <Link className="link" to="/coursemap">
+                            </div> */}
+                            {/* <Link className="link" to="/coursemap">
                                 <button className={courseId === course.id ? "course__access" : "none__btn"}>Access Class</button>
-                            </Link>
+                            </Link> */}
                         </div>                        
                     ))
                 }
