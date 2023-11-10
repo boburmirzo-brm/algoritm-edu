@@ -34,7 +34,7 @@ const Banner = () => {
                         <li className="suggestion__item">GSAP animations</li>
                         <li className="suggestion__item">Website Development</li>
                         <li className="suggestion__item">JavaScript</li>
-                        <li className="suggestion__item">React.js Full</li>
+                        <li className="suggestion__item">ReactJs Full</li>
                     </ul>
                 </div>
             </div>

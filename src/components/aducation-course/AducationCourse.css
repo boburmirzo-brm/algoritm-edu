@@ -33,3 +33,34 @@
 .aducation__course-item > p{
     color: #aaa;
 }
+
+
+@media screen and (max-width:1500px) {
+    .aducation__course-item{
+        min-height: 300px;
+    }
+    .aducation__course-item > h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .aducation__course{
+        padding: 50px 3% ;
+    }
+    .aducation__course-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:700px) {
+    .aducation__course > p{
+        width: 90%;
+    }
+    .aducation__course-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .aducation__course-item{
+        padding: 28px;
+    }
+}

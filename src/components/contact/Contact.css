@@ -46,3 +46,60 @@
 .contact__form > p span{
     text-decoration: underline;
 }
+
+@media screen and (max-width:1400px) {
+    .contact > h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contact{
+        color: #fff;
+    }
+    .contact > h1{
+        font-size: 40px;
+    }
+    .contact__form{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .contact{
+        width: 94%;
+        margin: 40px 3%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contact{
+        padding: 40px;
+    }
+    .contact > h1{
+        font-size: 34px;
+    }
+    .contact__form{
+        flex-direction: column;
+    }
+    .contact__form input,
+    .contact__form button{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .contact > h1{
+        font-size: 30px;
+    }
+    .contact > p{
+        font-size: 16px;
+    }
+    .contact{
+        padding: 40px 30px;
+    }
+    .contact__form{
+        flex-direction: row;
+    }
+}

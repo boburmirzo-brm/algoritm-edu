@@ -51,14 +51,14 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li onClick={()=> setShowHeader(false)}  className="header__collectionItem">
-                        <NavLink to="/" className="header__collectionLink">
+                        <a href='#AducationCourse' className="header__collectionLink">
                             {t('__header.2')}
-                        </NavLink>
+                        </a>
                     </li>
                     <li onClick={()=> setShowHeader(false)}  className="header__collectionItem">
-                        <NavLink to="/" className="header__collectionLink">
+                        <a href="#Contact" className="header__collectionLink">
                             {t('__header.3')}
-                        </NavLink>
+                        </a>
                     </li>
                  
                  
@@ -68,7 +68,7 @@ const Header = () => {
                 {/* <div className="header__language" onClick={changeLang}>
                  {language}<FiGlobe/>
                 </div> */}
-               <Link to="/"> <button className="header__calltoact">{t('__header.4')}</button></Link>
+               <a href='#Contact'> <button className="header__calltoact">{t('__header.4')}</button></a>
             </div>
         </div>
     )

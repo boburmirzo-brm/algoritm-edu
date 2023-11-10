@@ -82,7 +82,11 @@
         color: #fff;
     }
 }
-
+@media only screen and (max-width:1100px){
+    .footerTop__container{
+        width: 94%;
+    }
+}
 @media only screen and (max-width:800px) {
     .footerTop__downloadApp{
         padding-left: 50px;
@@ -94,7 +98,8 @@
         margin-top: 16px;
     }
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
+    
     .footerTop__downloadApp{
         padding-left: 30px;
     }
@@ -119,9 +124,7 @@
 }
 
 @media only screen and (max-width:470px){
-    .footerTop__container{
-        width: 90%;
-    }
+   
     .mobile__image{
         width: 95%;
     }

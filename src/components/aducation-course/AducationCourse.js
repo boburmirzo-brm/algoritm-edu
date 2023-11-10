@@ -3,7 +3,7 @@ import "./AducationCourse.css";
 
 function AducationCourse() {
   return (
-    <div className="aducation__course">
+    <div id="AducationCourse" className="aducation__course">
       <h2>O`quv kurslar</h2>
       <p>
         Bizning o'quvchilar nufuzli <span>IT (ayti)</span> kompaniyalarda
