@@ -17,6 +17,54 @@ import aboutStudent4 from '../assets/i4.jpg'
 import bobur from "../assets/me.jpg"
 import muhammadali from "../assets/MUHAMMADALI.jpg"
 
+import web from "../assets/web.png"
+import english from "../assets/english.jpg"
+import russian from "../assets/russian.png"
+import dtm from "../assets/dtm.webp"
+import kids from "../assets/kids.jpg"
+import math from "../assets/math.jpg"
+
+
+export const COURSES = [
+    {
+        id: 1,
+        url: web,
+        title: "Dasturlash",
+        desc: "HTML, CSS, JavaScript, ReactJS"
+    },
+    {
+        id: 2,
+        url: english,
+        title: "Ingliz tili",
+        desc: "IELTS, CEFR"
+    },
+    {
+        id: 3,
+        url: russian,
+        title: "Rus tili",
+        desc: ""
+    },
+    {
+        id: 4,
+        url: dtm,
+        title: "DTM",
+        desc: "Barcha fanlar"
+    },
+    {
+        id: 5,
+        url: math,
+        title: "Matematika",
+        desc: ""
+    },
+    {
+        id: 6,
+        url: kids,
+        title: "Kichkintoylar",
+        desc: ""
+    },
+]
+
+
 const advantages = [
     {
         "id" : 0,
@@ -225,3 +273,4 @@ export const aboutStudents = [
 
 
 export { advantages, courses }
+

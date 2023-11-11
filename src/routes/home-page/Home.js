@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './Home.css'
 import Banner from '../../components/banner/Banner';
 import Advantages from '../../components/advantages/Advantages';
-import Courses from '../../components/courses/Courses';
 import shapeOne from '../../assets/shape_one.svg';
 import FooterTop from '../../components/footerTop/FooterTop';
 import { Link } from 'react-router-dom';
 import { FiChevronRight, FiPhoneCall } from 'react-icons/fi';
 import Contact from "../../components/contact/Contact";
 import AducationCourse from '../../components/aducation-course/AducationCourse';
+import Youtube from '../../components/youtube/Youtube';
 
 
 const Home = () => {
@@ -25,7 +25,6 @@ const Home = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    console.log(scrollPosition)
      return (
         <>
             {
@@ -36,6 +35,7 @@ const Home = () => {
             <img src={shapeOne} alt="" className="shape__image"/>
             <Advantages/>
             <AducationCourse/>
+            <Youtube/>
             <Contact/>
             {/* <Courses/> */}
             {/* <Contact/> */}

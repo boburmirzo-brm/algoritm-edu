@@ -1,5 +1,6 @@
 import React from "react";
 import "./AducationCourse.css";
+import {COURSES} from '../../data/STATIC_DATA'
 
 function AducationCourse() {
   return (
@@ -10,30 +11,15 @@ function AducationCourse() {
         ishlashmoqda o'quvchilar yuqori natijalar bilan kurslarni yakunlashadi
       </p>
       <div className="aducation__course-grid">
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
-        <div className="aducation__course-item">
-            <h2>Web dasturlash</h2>
-            <p>Html, css, bootstrap, javascript, react js, node js</p>
-        </div>
+        {
+          COURSES?.map((item)=> <div key={item.id} 
+            style={{background: `url(${item.url}) no-repeat center/cover`}}
+            className="aducation__course-item">
+              <div className="aducation__course-dark"></div>
+              <h2>{item.title}</h2>
+              <p>{item.desc}</p>
+          </div> )
+        }
       </div>
     </div>
   );
